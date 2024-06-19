@@ -20,7 +20,7 @@ banner="shadow"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 2
@@ -30,7 +30,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 3
@@ -40,7 +40,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 4
@@ -50,7 +50,7 @@ banner="shadow"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 5
@@ -60,7 +60,7 @@ banner="shadow"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 6
@@ -70,7 +70,7 @@ banner="thinkertoy"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 7
@@ -80,7 +80,7 @@ banner="thinkertoy"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Test case 8
@@ -90,7 +90,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Additional random tests
@@ -101,7 +101,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Random Test case 2
@@ -111,7 +111,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Random Test case 3
@@ -121,7 +121,7 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
 
 # Random Test case 4
@@ -131,5 +131,5 @@ banner="standard"
 printf "\033[35m\n Test for %s --output=%s %s %s : \n" "$GO_PROGRAM" "$output_file" "$input" "$banner"
 $GO_PROGRAM --output="$output_file" "$input" "$banner"
 cat_output="$(cat -e "$output_file")"
-printf "\033[32m%s\n" "$cat_output"
+printf "\033[32m%s" "$cat_output"
 printf "\033[36m%s\033[0m\n" "//////////////////////////////////////////////////////////"
